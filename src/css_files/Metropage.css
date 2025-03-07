@@ -1,14 +1,12 @@
-
 body {
-  background-color:#ecececdc;
+  background-color: #ecececdc;
   color: rgba(10, 0, 74, 0.995);
 }
 
 .metro-container {
-  
   width: 100%;
 }
-.nav-links li a{
+.nav-links li a {
   text-decoration: none;
   color: rgb(244, 241, 241);
 }
@@ -18,23 +16,21 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #180d04c4;
-  padding-right: 10px ;
+  padding-right: 10px;
   margin: 1rem 0;
   width: 84%;
   z-index: 3;
   position: absolute;
   right: 9%;
-  
+
   box-shadow: 0 0 0.5rem #04168d;
-  
 }
-.navbar aside{
+.navbar aside {
   position: relative;
 }
 .logo {
   font-size: 18px;
   font-weight: bold;
- 
 }
 
 .nav-links {
@@ -43,27 +39,23 @@ body {
   gap: 20px;
 }
 
-
 .nav-links li {
   cursor: pointer;
 }
 
-
 .hero-section {
   width: 90%;
   margin: 0 auto;
-  background:linear-gradient(to right, #00337c, #002b5c);
- 
+  background: linear-gradient(to right, #00337c, #002b5c);
 }
-.hero-section figure{
-
+.hero-section figure {
   position: relative;
   width: 100%;
-  height:85vh;
+  height: 85vh;
   margin: 0 auto;
 }
 
-.hero-section figure img{
+.hero-section figure img {
   width: 100%;
   height: 100%;
 }
@@ -71,10 +63,10 @@ body {
 .hero-content {
   max-width: 500px;
   text-align: left;
- 
+
   position: absolute;
   top: 38%;
-  left:5%;
+  left: 5%;
 }
 
 .hero-content h1 {
@@ -84,7 +76,7 @@ body {
   color: rgb(10, 13, 95);
   right: 25%;
 }
-.hero-content h3{
+.hero-content h3 {
   color: rgb(209, 22, 22);
   text-shadow: 0 0 1rem #0f2a94;
 }
@@ -96,7 +88,6 @@ body {
   color: whitesmoke;
   margin-right: 30%;
   width: 90%;
-  
 }
 
 .cta-button {
@@ -115,46 +106,44 @@ body {
 
 @media (max-width: 480px) {
   .hero-section figure {
-    height:65vh;
+    height: 65vh;
   }
 
   .hero-content {
     max-width: 40%;
     text-align: left;
     left: 2%;
-    
+
     top: 20%;
   }
-  .nav-links{
+  .nav-links {
     position: absolute;
     z-index: 4;
     display: flex;
     flex-direction: column;
-    top:1rem;
-    left:0;
+    top: 1rem;
+    left: 0;
     background-color: rgba(0, 1, 1, 0.77);
     border: 2px solid black;
     gap: 0;
     display: none;
-
-    
   }
-  .nav-links li{
-    padding: 0.5rem 1.5rem 0.5rem 0.5rem ;
+  .nav-links li {
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
     font-size: 1rem;
     color: black;
     border-bottom: 1px solid dashed;
     cursor: pointer;
   }
-  .nav-links li:hover{
+  .nav-links li:hover {
     background-color: rgba(214, 87, 19, 0.901);
   }
- 
-  .navbar{
+
+  .navbar {
     margin: 1rem 0;
     color: white;
   }
-  .fa-bars-staggered{
+  .fa-bars-staggered {
     display: block !important;
   }
 
@@ -164,22 +153,19 @@ body {
   .hero-content h3 {
     font-size: 13px;
   }
-  .nav-links li a{
-    
-    color: rgb(212, 212, 212)
+  .nav-links li a {
+    color: rgb(212, 212, 212);
   }
 
   .hero-content p {
     font-size: 13px;
-    
+  }
 }
-  }
 
-  .cta-button {
-    font-size: 14px;
-    padding: 10px 16px;
-    
-  }
-  .logo img{
-    width: 150px !;
-  }
+.cta-button {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+.logo img {
+  width: 150px !;
+}
