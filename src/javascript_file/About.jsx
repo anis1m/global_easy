@@ -7,8 +7,8 @@ function About() {
     const observe = (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          const div = entry.target;
-          console.log(div);
+          const div = entry.target.querySelector("div");
+
           div.style.transform = "translateX(0px)";
           div.style.transition = "transform 2s ease";
 
@@ -35,8 +35,12 @@ function About() {
     };
   }, []);
   return (
-    <section id="aboutus" style={{ width: "100%", overflow: "hidden" }}>
-      <div className="about-us" ref={aboutusref}>
+    <section
+      id="aboutus"
+      style={{ width: "100%", overflow: "hidden" }}
+      ref={aboutusref}
+    >
+      <div className="about-us">
         <figure>
           <img src="/images/about.jpeg" />
         </figure>
