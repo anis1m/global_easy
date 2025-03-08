@@ -10,7 +10,7 @@ function About() {
           const div = entry.target.querySelector("div");
 
           div.style.transform = "translateX(0px)";
-          div.style.transition = "transform 2s ease";
+          div.style.transition = "transform 4s ease";
 
           observer.disconnect();
         }
