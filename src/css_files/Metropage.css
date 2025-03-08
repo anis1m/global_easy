@@ -83,11 +83,8 @@ body {
 
 .hero-content p {
   font-size: 19px;
-  margin-bottom: 20px;
   text-shadow: 0 0 2rem #000000;
   color: whitesmoke;
-  margin-right: 30%;
-  width: 90%;
 }
 
 .cta-button {
@@ -160,12 +157,17 @@ body {
   .hero-content p {
     font-size: 13px;
   }
+  .cta-button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+  .navbar img {
+    width: 150px !important;
+  }
 }
 
-.cta-button {
-  font-size: 14px;
-  padding: 10px 16px;
-}
-.logo img {
-  width: 150px !;
+@media (max-width: 1400px) {
+  .hero-content {
+    top: 25%;
+  }
 }
