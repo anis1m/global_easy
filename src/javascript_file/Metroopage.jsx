@@ -45,19 +45,21 @@ const Metroopage = () => {
       <header className="hero-section">
         <figure>
           <img src="/images/gl.jpeg" />
+
           <div className="hero-content">
             <h1>Easy Global Connect</h1>
             <h3>Bridging Borders, Building Futures</h3>
-            <br></br>
-            <p>
-              At Easy Global Connect, our vision is to revolutionize global
-              trade by crafting a seamless, sustainable, and customer-centric
-              ecosystem. We envision system where every transaction not only
-              connects buyers and suppliers but also consistently exceeds
-              customer expectations, fostering long-term relationships built on
-              trust, quality, and mutual growth. Through our relentless pursuit
-              of excellence and customer satisfaction
-            </p>
+            <blockquote>
+              <p>
+                At Easy Global Connect, our vision is to revolutionize global
+                trade by crafting a seamless, sustainable, and customer-centric
+                ecosystem. We envision system where every transaction not only
+                connects buyers and suppliers but also consistently exceeds
+                customer expectations, fostering long-term relationships built
+                on trust, quality, and mutual growth. Through our relentless
+                pursuit of excellence and customer satisfaction
+              </p>
+            </blockquote>
           </div>
         </figure>
       </header>
