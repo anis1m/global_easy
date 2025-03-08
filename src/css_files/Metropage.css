@@ -68,6 +68,16 @@ body {
   left: 2%;
 }
 
+.hero-content blockquote {
+  margin: 2rem 0;
+}
+
+.hero-content blockquote p {
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+}
+
 .hero-content h1 {
   margin-bottom: 10px;
   text-shadow: 0 0 0.5rem #b8c1ce;
@@ -76,11 +86,6 @@ body {
 .hero-content h3 {
   color: rgb(209, 22, 22);
   text-shadow: 0 0 1rem #0f2a94;
-}
-
-.hero-content p {
-  text-shadow: 0 0 2rem #000000;
-  color: whitesmoke;
 }
 
 .cta-button {
@@ -99,7 +104,7 @@ body {
 
 @media (max-width: 480px) {
   .hero-section figure {
-    height: 65vh;
+    height: 85vh;
   }
 
   .hero-section {
@@ -108,11 +113,16 @@ body {
 
   .hero-content {
     width: 70%;
-    top: 17%;
+    top: 20%;
   }
 
   .hero-content blockquote {
     width: 60%;
+    margin: 0.5rem 0;
+  }
+
+  .hero-content blockquote p {
+    font-size: 13px;
   }
 
   .nav-links {
