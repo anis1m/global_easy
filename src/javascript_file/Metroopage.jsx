@@ -7,12 +7,11 @@ const Metroopage = () => {
   return (
     <div className="metro-container">
       <nav className="navbar">
-        <div className="logo">
-          <img
-            src="/images/logo.jpeg"
-            style={{ width: "250px", height: "75px" }}
-          ></img>
-        </div>
+        <img
+          src="/images/logo.jpeg"
+          style={{ width: "250px", height: "75px" }}
+        ></img>
+
         <aside>
           <ul className="nav-links" ref={linkref}>
             <li>

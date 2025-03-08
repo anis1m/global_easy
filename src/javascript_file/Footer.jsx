@@ -4,7 +4,7 @@ import "../css_files/Footer.css";
 function Footer() {
   useEffect(() => {
     window.scrollTo({
-      top: 500,
+      top: 0,
       behavior: "smooth",
     });
   }, []);
