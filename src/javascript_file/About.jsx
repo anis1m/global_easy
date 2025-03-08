@@ -9,7 +9,7 @@ function About() {
         if (entry.isIntersecting) {
           const div = entry.target;
           console.log(div);
-          div.style.transform = "skew(0deg)";
+          div.style.transform = "translateX(0px)";
           div.style.transition = "transform 2s ease";
 
           observer.disconnect();

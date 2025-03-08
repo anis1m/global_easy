@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   gap: 5rem;
-  transform: translate3d(100px, 100px, 100px);
+  transform: translateX(-1920px);
   padding: 2rem;
 }
 
